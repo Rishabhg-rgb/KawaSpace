@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 const Person = (props) => {
-  // const [userDetails, setUserDetails] = useState()
+  
   const getUser = () => {
-    // setUserDetails(props.data)
     props.setUser(props.data)
     let cards = document.querySelectorAll('.usercard')
     cards.forEach(card=>{
