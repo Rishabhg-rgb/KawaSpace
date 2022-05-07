@@ -2,7 +2,7 @@ import React from 'react'
 
 const User = (props) => {  
   return (
-    <div className="card my-5 " style={{maxWidth: "800px",height:"250px",border:"4px solid gold", margin:"auto",justifyContent:"center",borderRadius:"2rem"}}>
+    <div className="card my-5 " style={{maxWidth: "800px",height:"250px",border:"4px ", margin:"auto",justifyContent:"center",borderRadius:"2rem"}}>
   <div className="row g-0">
     <div className="col-md-4" >
       <img src={props.user.picture.large} style={{marginLeft:"4rem"}} className="img-fluid rounded-circle" alt="..."/>
